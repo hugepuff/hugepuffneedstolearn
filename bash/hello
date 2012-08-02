@@ -1,4 +1,7 @@
 hello world
+<<<<<<< HEAD
 It;s a new day for git
 PLAY,PLAY,PLAY
 Work,Work,Work
+=======
+>>>>>>> parent of 3ccf4ce... adding new ling in new day  for git in hello
