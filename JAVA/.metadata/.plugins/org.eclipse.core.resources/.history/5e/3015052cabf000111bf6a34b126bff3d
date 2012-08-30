@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Insert title here</title>
+</head>
+<body>
+    <h1>Wei's Homepage for 4221 </h1>
+    <p>I am trying to write a paragraph about myself:</p>
+    <p>I dare not to use a photo. Because...well...you know</p>
+	<img src="demo.jpg" />
+	<p>I am not that fat, although I love those food:</p>
+	
+	<ul>
+	<li>Chocolate</li>
+	<li>Ice Cream</li>
+	<li>Fried Chicken</li>
+	</ul>
+	
+	<p>Well, getting fatter and fatter...I deserve it. T^T</p>
+	
+	<p>I really don't know how can I put a table in my web page.</p>
+	<p>I try to list my merits and demerits.</p>
+	<table border="0">        
+	    <tr>
+		<th>Merits</th>
+		<th>Demerits</th>
+		</tr>
+		<tr>
+		<td>Warm hearted</td>
+		<td>Hard Working</td>
+		</tr>
+		<tr>
+		<td>Lazy</td>
+		<td>hate to exercise</td>
+		</tr>
+	</table>
+	<p></p>
+	<a href="http://www.osu.edu/">Visit My School</a>
+
+</body>
+</html>

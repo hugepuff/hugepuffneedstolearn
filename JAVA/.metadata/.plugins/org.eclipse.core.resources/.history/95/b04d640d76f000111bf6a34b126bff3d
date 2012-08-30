@@ -1,0 +1,40 @@
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+/**
+ * 
+ * @author W.Chen
+ * 
+ */
+public final class HW21b {
+
+	/**
+	 * HW2_1 is a utility class.
+	 */
+	private HW21b() {
+	}
+
+	/**
+	 * @param args
+	 *            command line arguments
+	 */
+	public static void main(String[] args) {
+		final int n = 100;
+		final int multiplier = 10;
+		int counter = 0;
+
+		StringBuffer buf = new StringBuffer();
+		SimpleWriter out = new SimpleWriter1L();
+
+		while (multiplier * counter < n) {
+			buf.append(counter * counter);
+			buf.append(" ");
+			counter++;
+		}
+		
+		String result = buf.toString();
+		out.println(result);
+		out.close();
+	}
+
+}

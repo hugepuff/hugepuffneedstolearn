@@ -1,0 +1,27 @@
+/**
+ * 
+ * @author Wei
+ * 
+ */
+public final class Demo {
+	/**
+	 * Private constructor for utility class.
+	 */
+	private Demo() {
+	}
+	/**
+	 * Main program to check HW1.
+	 * 
+	 * @param args
+	 *            command-line arguments
+	 */
+	public static void main(String[] args) {
+		final int k = 39;
+		final int three = 3;
+		System.out.println("39 + 3");
+		System.out.println(k + three);
+		System.out.println("39" + "3");
+		System.out.println("39" + three);
+		System.out.println(k + "39");
+	}
+}

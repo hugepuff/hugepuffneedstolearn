@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="2.0.1" sequence="5" timestamp="1345948890773" analysisTimestamp="1345948890434" release="">
+  <Project projectName="HelloWorld">
+    <Jar>C:\Gitcoding\JAVA\HelloWorld\bin\HelloWorld.class</Jar>
+    <AuxClasspathEntry>C:\Gitcoding\JAVA\HelloWorld\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\eclipse\common\components.jar</AuxClasspathEntry>
+    <SrcDir>C:\Gitcoding\JAVA\HelloWorld\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Sat, 25 Aug 2012 22:41:30 -0400" total_classes="1" referenced_classes="12" total_bugs="0" total_size="9" num_packages="1" vm_version="23.1-b03" cpu_seconds="0.58" clock_seconds="0.34" peak_mbytes="350.51" alloc_mbytes="455.12" gc_seconds="0.00">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="HelloWorld" sourceFile="HelloWorld.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="76" invocations="281" avgMicrosecondsPerInvocation="271" maxMicrosecondsPerInvocation="2410" standardDeviationMircosecondsPerInvocation="380"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="73" invocations="282" avgMicrosecondsPerInvocation="259" maxMicrosecondsPerInvocation="672" standardDeviationMircosecondsPerInvocation="84"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="44" invocations="2" avgMicrosecondsPerInvocation="22322" maxMicrosecondsPerInvocation="34102" standardDeviationMircosecondsPerInvocation="11780"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="21" invocations="12" avgMicrosecondsPerInvocation="1754" maxMicrosecondsPerInvocation="7871" standardDeviationMircosecondsPerInvocation="2337"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ExplicitSerialization" totalMilliseconds="16" invocations="12" avgMicrosecondsPerInvocation="1413" maxMicrosecondsPerInvocation="4886" standardDeviationMircosecondsPerInvocation="1687"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.impl.ZipCodeBaseFactory" totalMilliseconds="15" invocations="16" avgMicrosecondsPerInvocation="945" maxMicrosecondsPerInvocation="13533" standardDeviationMircosecondsPerInvocation="3250"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="14" invocations="272" avgMicrosecondsPerInvocation="54" maxMicrosecondsPerInvocation="2505" standardDeviationMircosecondsPerInvocation="158"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1345946954226" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1345946954227" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1345948663159" release="" codeSize="6" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1345948778530" release="" codeSize="9" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1345948795112" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

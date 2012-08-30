@@ -1,0 +1,39 @@
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+/**
+ * 
+ * @author W.Chen
+ * 
+ */
+public final class HW2 {
+
+	/**
+	 * HW2_1 is a utility class.
+	 */
+	private HW2() {
+	}
+
+	/**
+	 * @param args
+	 *            command line arguments
+	 */
+	public static void main(String[] args) {
+		final int n = 100;
+		int counter = 0;
+		String result = new String(); inefficient
+		//String result = " ";
+		SimpleWriter out = new SimpleWriter1L();
+		/*
+		 * while (Math.pow(counter, 2) < n) {
+		 * System.out.println(Math.pow(counter, 2)); counter++;
+		 */
+		while (counter * counter < n) {
+			result += ((counter * counter) + " ");
+			counter++;
+		}
+		out.println(result);
+		out.close();
+	}
+
+}
